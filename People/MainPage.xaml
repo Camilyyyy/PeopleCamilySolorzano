@@ -9,9 +9,9 @@
           RowDefinitions="Auto,Auto,Auto,Auto,*">
 
         <Entry x:Name="newPerson"
-           Placeholder="Enter name" />
+           Placeholder="Ingrese su nombre" />
 
-        <Button Text="Add Person"
+        <Button Text="Añadir a una nueva persona"
             Grid.Row="1"
             Clicked="OnNewButtonClicked" />
 
@@ -19,7 +19,7 @@
            TextColor="{StaticResource Primary}"
            Grid.Row="2" />
 
-        <Button Text="Get All People"
+        <Button Text="Ver el registro de personas"
             Grid.Row="3"
             Clicked="OnGetButtonClicked" />
 
